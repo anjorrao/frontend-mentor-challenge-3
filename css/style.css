@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
 .card-group .card {
-  padding: 1.2rem;
+  padding: 3rem 1.2rem;
   border: none;
   color: rgba(255, 255, 255, 0.75);
   border-radius: 7px;
@@ -30,7 +30,7 @@
 .card-group .card .card-title {
   font-family: "Big Shoulders Display", cursive;
   color: #f2f2f2;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 2rem 0;
   text-transform: uppercase;
 }
