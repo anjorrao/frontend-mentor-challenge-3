@@ -36,8 +36,8 @@
 }
 
 .card-group .card p {
-  margin-bottom: 4rem;
-  font-size: 0.8rem;
+  margin-bottom: 4.5rem;
+  font-size: 1rem;
 }
 
 .card-group .card.orange {
@@ -127,7 +127,7 @@ body {
 
 @media (min-width: 768px) {
   .vertically-align-middle .card-group {
-    width: 60%;
+    width: 65%;
   }
 }
 /*# sourceMappingURL=style.css.map */
