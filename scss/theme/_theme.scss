@@ -1,0 +1,18 @@
+@import "../base/base";
+
+body {
+	font-family: $font-lexend-deca;
+	font-size: $regular-font;
+	background-color: $light-gray;
+}
+
+.attribution {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+
+	a {
+		color: $orange;
+	}
+}

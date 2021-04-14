@@ -1,0 +1,84 @@
+@import "../base/base";
+@import "../base/breakpoints";
+
+/*---------------- Card ----------------*/
+.card-group {
+
+	.card {
+		padding: 1.2rem;
+		border: none;
+		color: $transparent-white;
+		border-radius: 7px;
+		margin-bottom: 0;
+
+		 @include media-breakpoint-down(md) { 
+			 border-radius: 0;
+
+			 &:first-child {
+				 border-top-left-radius: 7px;
+				 border-top-right-radius: 7px;
+			 }
+
+			 &:last-child {
+				 border-bottom-left-radius: 7px;
+				 border-bottom-right-radius: 7px;
+			 }
+		 }
+
+		.card-title {
+			font-family: $font-big-shoulder-display;
+			color: $light-gray;
+			font-size: 2rem;
+			margin: 2rem 0;
+			text-transform: uppercase;
+		}
+
+		p {
+			margin-bottom: 4rem;
+			font-size: 0.8rem;
+		}
+
+		&.orange {
+			background-color: $orange;
+
+			.btn-primary {
+				color: $orange;
+			}
+		}
+
+		&.cyan {
+			background-color: $cyan;
+
+			.btn-primary {
+				color: $cyan;
+			}
+		}
+
+		&.cyan-dark {
+			background-color: $dark-cyan;
+
+			.btn-primary {
+				color: $dark-cyan;
+			}
+		}
+	}
+}
+
+/*---------------- Button ---------------*/
+.btn-primary {
+	background-color: $light-gray;
+	border-radius: 30px;
+	border: none;
+	font-size: 0.8rem;
+	padding: 0.5rem 1.5rem;
+	border: 1px solid transparent;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: transparent;
+		color: $light-gray !important;
+		border: 1px solid $light-gray;
+		box-shadow: none;
+	}
+}

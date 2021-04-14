@@ -1,0 +1,28 @@
+@import "../base/base";
+@import "../base/breakpoints";
+
+.main-content-wrapper {
+
+	@include media-breakpoint-down(md) { 
+		padding: 50px 0;
+	}
+}
+
+.vertically-align-middle {
+	@include media-breakpoint-up(md) {
+		display: flex;
+		align-items: center;
+		height: 100vh;
+		justify-content: center;
+	}
+
+	@include media-breakpoint-down(md) {
+		padding: 0 15px;
+	}
+
+	.card-group {
+		@include media-breakpoint-up(md) {
+			width: 55%;
+		}
+ 	}
+}
